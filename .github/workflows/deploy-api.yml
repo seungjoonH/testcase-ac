@@ -20,6 +20,7 @@ concurrency:
 
 jobs:
   deploy:
+    if: github.repository == 'testcase-ac/testcase-ac'
     runs-on: ubuntu-latest
     environment: testcase-ac-prod
 

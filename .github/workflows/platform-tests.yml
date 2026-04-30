@@ -25,6 +25,7 @@ permissions:
 
 jobs:
   test:
+    if: github.repository == 'testcase-ac/testcase-ac'
     runs-on: ubuntu-latest
 
     steps:
